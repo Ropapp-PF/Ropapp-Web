@@ -1009,9 +1009,10 @@ button.btn--primary,
 input[type='submit'].btn--primary,
 input[type='reset'].btn--primary,
 input[type='button'].btn--primary {
-  background: #133048;
+  background: #13304860;
   border-color: #133048;
   color: #e8c900;
+  font-size: 1.8rem;
 }
 
 .btn.btn--primary:hover,
@@ -1025,7 +1026,7 @@ input[type='submit'].btn--primary:focus,
 input[type='reset'].btn--primary:focus,
 input[type='button'].btn--primary:focus {
   background: #133048;
-  border-color: #133048;
+  border-color: #e8c900;
 }
 
 /* button modifiers
@@ -2131,7 +2132,7 @@ input::-moz-focus-inner {
 .home-content__social {
   list-style: none;
   margin: 0;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 2.4rem;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -2148,7 +2149,7 @@ input::-moz-focus-inner {
 
 .home-content__social li {
   display: inline;
-  margin-right: 6px;
+  margin-right: 9px;
 }
 
 .home-content__social li:last-child {
@@ -2156,7 +2157,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__social a {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .home-content__social a:hover,
@@ -2184,7 +2185,7 @@ input::-moz-focus-inner {
   line-height: 5.6rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  color: #133048;
+  color: rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid transparent;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2585,7 +2586,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
   padding-top: 23.2rem;
-  padding-bottom: calc((62.4rem / 2) + 6.4rem);
+  padding-bottom: 6.4rem;
   background-color: #133048;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
@@ -3623,14 +3624,14 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-footer .footer__mail-link {
-  font-weight: 800;
-  color: #133048;
+  color: #ffffff;
 }
 
 .s-footer .footer__mail-link:hover,
 .s-footer .footer__mail-link:focus,
 .s-footer .footer__mail-link:active {
-  color: #ffffff;
+  font-weight: bold;
+  color: rgb(232, 201, 0);
 }
 
 .footer__bottom {
@@ -3753,7 +3754,7 @@ html.no-csstransitions .home-content__main {
   height: 36px;
   width: 36px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   border-radius: 50%;
 }
@@ -3762,7 +3763,8 @@ html.no-csstransitions .home-content__main {
 .footer__social li a:focus,
 .footer__social li a:active {
   background-color: #133048;
-  color: #ffffff;
+  color: rgb(232, 201, 0);
+  font-size: 1.8rem;
 }
 
 .footer__social li:last-child {
@@ -3787,14 +3789,15 @@ html.no-csstransitions .home-content__main {
 
 .footer__site-links li a,
 .footer__site-links li a:visited {
-  color: rgba(255, 255, 255, 0.4);
+  color: #fff;
   outline: none;
 }
 
 .footer__site-links li a:hover,
 .footer__site-links li a:focus,
 .footer__site-links li a:active {
-  color: #133048;
+  font-weight: bold;
+  color: rgb(232, 201, 0);
 }
 
 /* ------------------------------------------------------------------- 
