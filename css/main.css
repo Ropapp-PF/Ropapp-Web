@@ -68,12 +68,6 @@ html {
   font-size: 10px;
 }
 
-@media only screen and (max-width: 400px) {
-  html {
-    font-size: 9.444444444444444px;
-  }
-}
-
 html,
 body {
   height: 100%;
@@ -145,35 +139,12 @@ h4,
   margin-bottom: 1.6rem;
 }
 
-@media only screen and (max-width: 600px) {
-  h1,
-  .h1,
-  h2,
-  .h2,
-  h3,
-  .h3,
-  h4,
-  .h4 {
-    margin-top: 5.6rem;
-  }
-}
-
 h5,
 .h5,
 h6,
 .h6 {
   margin-top: 4.8rem;
   margin-bottom: 1.2rem;
-}
-
-@media only screen and (max-width: 600px) {
-  h5,
-  .h5,
-  h6,
-  .h6 {
-    margin-top: 4rem;
-    margin-bottom: 0.8rem;
-  }
 }
 
 h1,
@@ -184,6 +155,25 @@ h1,
 }
 
 @media only screen and (max-width: 600px) {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4 {
+    margin-top: 4rem;
+  }
+
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+  }
+
   h1,
   .h1 {
     font-size: 3.3rem;
@@ -236,15 +226,15 @@ p.lead {
   color: #898989;
 }
 
-@media only screen and (max-width: 1200px) {
-  p.lead {
-    font-size: 2.6rem;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   p.lead {
     font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  p.lead {
+    font-size: 2.6rem;
   }
 }
 
@@ -1650,16 +1640,6 @@ input::-moz-focus-inner {
   }
 }
 
-@media only screen and (max-width: 350px) {
-  .display-1 {
-    font-size: 3.6rem;
-  }
-
-  .display-2 {
-    font-size: 3.4rem;
-  }
-}
-
 /* ===================================================================
  * # header styles
  *
@@ -2111,6 +2091,15 @@ input::-moz-focus-inner {
   vertical-align: bottom;
   margin-top: -5.2rem;
 }
+.home-content__right .app_image {
+  position: relative;
+  left: 25px;
+  top: -652px;
+  border-radius: 24px;
+  width: 314px;
+  height: 680px;
+  z-index: -10;
+}
 
 /* ------------------------------------------------------------------- 
  * ## home button section
@@ -2398,8 +2387,8 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 1200px) {
   .s-home {
     display: block;
-    overflow: hidden;
-    min-height: 740px;
+    /* overflow: hidden; */
+    min-height: 1250px;
   }
 
   .home-content {
@@ -2447,6 +2436,12 @@ html.no-csstransitions .home-content__main {
 
   .home-content__right img {
     margin-top: 0;
+  }
+
+  .home-content__right .app_image {
+    left: 0px;
+    top: -695px;
+    height: 670px;
   }
 }
 
@@ -2569,6 +2564,12 @@ html.no-csstransitions .home-content__main {
     margin-top: -24rem;
   }
 
+  .home-content__right .app_image {
+    width: 270px;
+    height: 560px;
+    top: -580px;
+  }
+
   .home-content__btn-wrap .home-content__btn {
     width: 100%;
   }
@@ -2577,6 +2578,12 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 350px) {
   .home-content__right {
     width: 280px;
+  }
+
+  .home-content__right .app_image {
+    width: 250px;
+    height: 530px;
+    top: -550px;
   }
 }
 
